@@ -1,0 +1,270 @@
+body
+{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container_navbar 
+{
+    background-color: #1d92f1;
+    padding: 1rem;
+    color: #fff;
+}
+  
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+  
+.navbar_judul
+{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+  
+.navbar_ul 
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+  
+.navbar_li
+{
+    margin: 0 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* ===================== */
+
+
+.container_home
+{
+    padding-top: 1rem;
+}
+
+.home
+{
+    text-align: center;
+}
+
+.img_home
+{
+    margin-top: 2rem;
+    width: 20rem;
+    height: 18rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.judul_home
+{
+    margin-top: -2rem;
+    font-size: 3rem;
+}
+
+.text_home
+{
+    color: gray;
+    font-size: 1.2rem;
+    margin-top: -3rem;
+}
+
+.svg 
+{
+    /* color: #d5ebfd; */
+    margin-top: -5rem;
+}
+
+
+/* ===================== */
+
+
+.container_about
+{
+    background-color: #d5ebfd;
+    margin-top: -2rem;
+}
+
+.about
+{
+    margin-top: -5rem;
+}
+
+.about_judul
+{
+    margin: 0rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.column
+{
+    margin-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.about1
+{
+    flex-basis: 47%;
+    box-shadow: 0.1rem 0rem 0rem rgba(0,0,0,0.8);
+    padding: 1rem;
+    border: 0rem solid grey;
+    text-align: justify;
+}
+
+.about2
+{
+    flex-basis: 47%;
+    padding: 1rem;
+    text-align: justify;
+}
+
+
+/* ===================== */
+
+
+.container_skill
+{
+    margin-top: 0rem;
+}
+
+.skill
+{
+    margin-top: -5rem;
+}
+
+.skill_judul
+{
+    margin: 0rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.column_skill
+{
+    margin-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.box_skill
+{
+    margin: 1rem;
+    padding: 1rem;
+    flex-basis: 47%;
+    box-shadow: 4px 4px 4px gray;
+    border: 1px solid gray;
+    border-radius: 2%;
+}
+
+.text_skill
+{
+    text-align: justify;
+}
+
+
+/* ===================== */
+
+.contact_judul
+{
+    margin: 0rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container_contact
+{
+    margin-top: 10rem;
+}
+
+.contact_img
+{
+    width: 40rem;
+}
+
+.contact1
+{
+    flex-basis: 47%;
+    text-align: right;
+}
+
+.contact2
+{
+    flex-basis: 47%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+label
+{
+    font-size: 1.5rem;
+}
+
+input
+{
+    border-color: #1d92f1;
+    height: 2rem;
+    border-radius: 4%;
+}
+
+button
+{
+    margin-top: 1rem;
+    background-color: #1d92f1;
+    border-color: #1d92f1;
+    height: 2.5rem;
+    border-radius: 4%;
+    font-size: 1.5rem;
+}
+
+
+/* ===================== */
+
+
+.container_footer 
+{
+    background-color: #1d92f1;
+    padding: 1rem;
+    color: #fff;
+}
+
+.container_footer
+{
+    text-align: center;
+}
+
+.judul_footer
+{
+    margin-bottom: 0rem;
+}
+
+.text_footer
+{
+    margin-top: 0rem;
+}
